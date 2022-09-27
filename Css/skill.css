@@ -1,0 +1,75 @@
+.skil__titulo{
+    display: block;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 14%;
+}
+
+.skil__descricao{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.skil__container{
+    display: block;
+    margin: 8rem 4rem 0 4rem;
+}
+
+.skil__nivel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    font-weight: 500;
+}
+
+.skil__img{
+    width: 60px ;
+    height: 60px;
+    margin: 0 0 .1rem 4rem;
+}
+
+.progresso{
+   height: 14px;
+   width: 90%;
+   background-color: white ;
+   display: flex;
+   margin: 10px 0 2.6rem 2rem;
+}
+
+.progresso__c::before{
+    content: "";
+    width: calc( var(--progress-c) * 1%);
+    background-color: var(--cor--nav);
+}
+
+.progresso__cplus::before{
+    content: "";
+    width: calc( var(--progress-cplus) * 1%);
+    background-color: var(--cor--nav);
+}
+
+.progresso__csharp::before{
+    content: "";
+    width: calc( var(--progress-csharp) * 1%);
+    background-color: var(--cor--nav);
+}
+
+.progresso__html::before{
+    content: "";
+    width: calc( var(--progress-html) * 1%);
+    background-color: var(--cor--nav);
+}
+
+.progresso__css::before{
+    content: "";
+    width: calc( var(--progress-css) * 1%);
+    background-color: var(--cor--nav);
+}
+
+.progresso__js::before{
+    content: "";
+    width: calc( var(--progress-js) * 1%);
+    background-color: var(--cor--nav);
+}

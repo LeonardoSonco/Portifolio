@@ -1,0 +1,166 @@
+.identificacao__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+    grid-column: 2;
+    align-items: center;
+    margin: 6rem 6rem;
+}
+
+.img__minha{
+    width: 350px;
+    border: 4px solid var(--cor--nav);
+    box-shadow: 10px 10px 3px var(--cor--nav);
+    margin-left: 8rem;
+}
+
+
+.identificacao__apresentacao{
+    display: block;
+
+}
+
+.identificacao__ola{
+    font-size: 33px;
+}
+
+.identificacao__nome{
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+.identificacao__paragrafo{
+    display: inline-block;
+    color: var(--cor-letra-secundaria);
+    font-size: 25px;
+    background-color: var(--cor--nav);
+    padding: .5em .7em .5em .7em;
+    margin: 0 0  .5em .2em;
+   
+}
+
+.sobre__paragrafo{
+    line-height: 30px;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 3em;
+}
+
+.links{
+    display: flex;
+    margin-top: 5%;
+    gap: 10px;
+   
+}
+
+.links a{
+    font-size: 30px;
+    width: 33%;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor-fonte-principal);
+}
+
+.links a:hover{
+    background-color:var(--cor--nav) ;
+    color: white;
+    transition: .3s;
+}
+
+.linkedin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.linkedin::after{
+    content: url("../Img/Logo_LINKEDIN.svg");
+}
+
+.linkedin:hover::after{
+    content: url("../Img/Logo_LINKEDIN-branco.svg");
+  
+}
+
+.git{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.git::after{
+    content: url("../Img/Logo_GIT.svg");
+}
+
+.git:hover::after{
+    content: url("../Img/Logo_GIT-branco.svg");
+    transition: .5s;
+}
+
+.cv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.cv::after{
+    content: url("../Img/cv.svg");
+}
+
+.cv:hover::after{
+    content: url("../Img/cv-branco.svg");
+}
+
+@media (max-width:900px){
+    
+    .identficacao__container{
+        display: block;
+        margin-top: 5rem;
+        text-align: center;
+        
+    }
+    .identficacao__ola{
+        font-size: 25px;
+    }
+    
+    .identficacao__nome{
+        font-size: 40px;
+     
+    }
+    
+    .identficacao__paragrafo{
+        font-size: 20px;
+    }
+    
+    .img__minha{
+        margin-top: 2em;
+    }
+
+    .sobre__container{
+        display: block;
+        justify-content: space-around;
+        margin: 3em 1em;
+        
+    }
+
+    .sobre__descricao{
+        width: 100%;
+    }
+
+    .sobre__redes{
+        font-size: 20px;
+        
+    }
+
+    .rede__linkedin, .rede__git{
+        display: flex;
+        justify-content: center;
+        max-width: 150px;
+        margin: 2em 0 0 0.5em;
+      
+    }
+
+}

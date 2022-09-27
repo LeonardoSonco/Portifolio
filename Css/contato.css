@@ -1,0 +1,95 @@
+.contato__informacoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2;
+    gap: 10%;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.contato__nome{
+    margin-bottom: 3rem;
+}
+
+.contato__nome label, .contato__email label{
+    display: block;
+    color: white;
+    background-color: var(--cor--nav);
+    padding: 1rem 1rem;
+    font-size: 24px;
+}
+
+.contato__nome input,  .contato__email input {
+    background-color: var(--cor--back);
+    width: 100%;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    border: 2px solid black;
+    font-size: 20px;
+
+}
+
+.input-mensagem {
+	width: 90%;
+}
+
+.contato__mensagem label{
+    display: block;
+    color: white;
+    background-color: var(--cor--nav);
+    padding: 1rem 1rem;
+    font-size: 24px;
+}
+
+.contato__mensagem textarea{
+    background-color: var(--cor--back);
+    width: 100%;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+
+.contato__botao {
+    width:40%;
+	padding: 15px 0;
+	background: var(--cor--nav);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.contato__btn{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contato__btn button{
+    width: 30%;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    background-color: var(--cor--nav);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;  
+}
+
+.contato__btn button:hover{
+    width: 32%;
+    height: 90px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+#Contato p{
+    text-align: center;
+    margin-top: 2%;
+}

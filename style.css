@@ -1,0 +1,74 @@
+﻿@import url("Css/header.css");
+@import url("Css/identificacao.css");
+@import url("Css/skill.css");
+@import url("Css/projeto.css");
+@import url("Css/contato.css");
+
+
+:root{
+    --cor--back :rgb(233, 229, 229);
+    --cor--nav :rgb(83, 0, 0);
+    --cor-fonte-principal : #000000;
+    --cor-letra-secundaria : #FFFFFF;
+    --fonte-principal : "Roboto Mono";
+}
+
+body{
+    background-color: var(--cor--back);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color:var(--cor-fonte-principal);
+}
+
+.imagem{
+    width: 50%;
+}
+
+.barra__efeito{
+    display: flex;
+    height: 2px;
+    width: 10%;
+    border-radius: 4px;
+    background-color: white ;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.barra__efeito::before{
+    content: "";
+    width: 33%;
+    background-color: var(--cor--nav);
+}
+
+.titulos__padrao{
+    display: block;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 14%;
+}
+
+.subtitulo__padrao{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer{
+    background-color: var(--cor--nav);
+    padding: 3%;
+    margin-top: 5%;
+}
+
+.informacao{
+    text-align: center;
+    color: #929292;
+    margin-bottom: 20px;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
